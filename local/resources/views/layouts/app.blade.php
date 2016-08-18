@@ -5,12 +5,12 @@
 </head>
     <body>
         @include('layouts.header')
-        <div class="content" style="min-height: 500px">
+        <!--<div class="content" style="min-height: 500px">-->
             <div id="wrapper">
                 <div id="page-wrapper">
-                    <div class="container-fluid">
+                    <!--<div class="container-fluid">-->
                     @yield('content')
-                    </div>
+                    <!--</div>-->
                 </div>
             </div>
         <div class="footer">

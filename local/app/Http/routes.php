@@ -29,3 +29,13 @@ Route::group(['prefix' => 'api', 'namespace' => 'API'], function ()
         require Config::get('generator.path_api_routes');
 	});
 });
+
+
+Route::resource('pacientes', 'PacientesController');
+
+Route::get('pacientes/{id}/delete', [
+    'as' => 'pacientes.delete',
+    'uses' => 'PacientesController@destroy',
+]);
+
+    Route::get('/home', 'HomeController@index');
