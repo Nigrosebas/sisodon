@@ -115,7 +115,11 @@ return [
         'nombre' => 'Nombre',
         'apellido'  => 'Apellido',
         'old_password' => 'Contraseña actual',
-        'numero' => 'Número'
+        'numero' => 'Número',
+        'ano_nac' => 'Año Nacimiento',
+        'apellido_p' => 'Apellido Paterno',
+        'apellido_m' => 'Apellido Materno',
+        'telefono' => 'Teléfono'
         ],
 
 ];

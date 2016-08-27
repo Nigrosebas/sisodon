@@ -51,7 +51,7 @@
                                         $('#eventUrl').attr('href',event.url);
                                         $('#fullCalModal').modal();
                                     },
-        
+
                                     timeFormat: {
                                     agenda: 'H(:mm)' //h:mm{ - h:mm}'
                                     },
@@ -86,7 +86,7 @@
     }
 
     #calendar {
-        max-width: 1000px;
+        /*max-width: 1000px;*/
         margin: 40px auto;
         padding: 0 10px;
     }
@@ -94,7 +94,6 @@
 </style>
 
 <body2>
-    <div id='top'></div>
     <div id='calendar'></div>
 <div id="fullCalModal" class="modal fade">
     <div class="modal-dialog">
@@ -111,7 +110,6 @@
         </div>
     </div>
 </div>
-
 
 
 

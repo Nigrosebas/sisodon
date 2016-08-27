@@ -13,6 +13,7 @@ class Pacientes extends Model
 	    "apellido_p",
 		"apellido_m",
 		"rut",
+		"ano_nac",
 		"sexo",
 		"direccion",
 		"telefono",
@@ -33,6 +34,7 @@ class Pacientes extends Model
 	    "apellido_p" => 'required|alpha',
 		"apellido_m" => 'required|alpha',
 		"rut" => 'required|numeric|unique:pacientes',
+		"ano_nac" => 'required|numeric|between:1900,2050',
 		"telefono" => 'required|numeric'
 	];
 
@@ -41,6 +43,7 @@ class Pacientes extends Model
 	    "apellido_p" => 'required|alpha',
 		"apellido_m" => 'required|alpha',
 		"rut" => 'required|numeric',
+		"ano_nac" => 'numeric|between:1900,2050',
 		"telefono" => 'required|numeric'
 	];
 

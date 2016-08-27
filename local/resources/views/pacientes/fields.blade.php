@@ -28,6 +28,10 @@
 			    {!! Form::label('telefono', 'Telefono') !!}
 				{!! Form::text('telefono', null, ['class' => 'form-control']) !!}
 			</div>
+			<div class="form-group col-sm-6 col-lg-4">
+		    {!! Form::label('ano_nac', 'Año Nacimiento:') !!}
+			{!! Form::text('ano_nac', null, ['class' => 'form-control']) !!}
+			</div>
 		</div>
 </div>
 <div class="panel panel-default">
@@ -43,6 +47,13 @@
 		    {!! Form::label('direccion', 'Direccion:') !!}
 			{!! Form::text('direccion', null, ['class' => 'form-control']) !!}
 		</div>
+
+		<div class="form-group col-sm-6 col-lg-4">
+		    {!! Form::label('sexo', 'Sexo:') !!}
+		    {!! Form::select('sexo', ['Masculino' => 'Masculino', 'Femenino'=>'Femenino'], null, ['class' => 'form-control']) !!}
+		</div>
+		<!-- Año Field -->
+
 	</div>
 </div>
 <!-- Submit Field -->

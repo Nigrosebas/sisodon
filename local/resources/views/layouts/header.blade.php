@@ -33,10 +33,13 @@
                         <a href="{{asset('home')}}"><i class="fa fa-fw fa-calendar"></i> Agenda</a>
                     </li>
                     <li>
-                        <a href="{{asset('pacientes')}}"><i class="fa fa-fw fa-calendar"></i> Nuevos Pacientes</a>
+                        <a href="{{asset('pacientes')}}"><i class="fa fa-fw fa-user-plus"></i> Nuevos Pacientes</a>
                     </li>
                     <li>
-                        <a href="tables.html"><i class="fa fa-fw fa-file-text"></i> Fichas Pacientes</a>
+                        <a href="{{asset('pacientes')}}"><i class="fa fa-fw fa-file-text"></i> Fichas Pacientes</a>
+                    </li>
+                    <li>
+                        <a href="{{asset('acciones')}}"><i class="fa fa-fw fa fa-hashtag"></i> Acciones</a>
                     </li>
                 </ul>
             </div>

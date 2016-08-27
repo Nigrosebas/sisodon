@@ -40,11 +40,15 @@
     <p>{!! $pacientes->telefono !!}</p>
 </div>
 
-
-
 <!-- Email Field -->
 <div class="form-group">
     {!! Form::label('email', 'Email:') !!}
     <p>{!! $pacientes->email !!}</p>
+</div>
+
+<!-- Año Field -->
+<div class="form-group">
+    {!! Form::label('ano_nac', 'Año Nacimiento:') !!}
+    <p>{!! $pacientes->ano_nac !!}</p>
 </div>
 

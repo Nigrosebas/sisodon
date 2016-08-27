@@ -39,3 +39,11 @@ Route::get('pacientes/{id}/delete', [
 ]);
 
     Route::get('/home', 'HomeController@index');
+
+
+Route::resource('acciones', 'AccionesController');
+
+Route::get('acciones/{id}/delete', [
+    'as' => 'acciones.delete',
+    'uses' => 'AccionesController@destroy',
+]);
